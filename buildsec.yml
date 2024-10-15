@@ -11,7 +11,7 @@ phases:
   build:
     commands:
       - echo "Building the application"
-      - npm run build
+      - npm run build --verbose  # Add verbose logging
 
 artifacts:
   files:
